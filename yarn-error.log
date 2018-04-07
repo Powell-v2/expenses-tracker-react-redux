@@ -2,13 +2,13 @@ Arguments:
   /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js test
 
 PATH: 
-  /Users/powell_v2/.rvm/gems/ruby-2.5.0/bin:/Users/powell_v2/.rvm/gems/ruby-2.5.0@global/bin:/Users/powell_v2/.rvm/rubies/ruby-2.5.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/powell_v2/.rvm/bin
+  /Users/powell_v2/.rvm/gems/ruby-2.5.0/bin:/Users/powell_v2/.rvm/gems/ruby-2.5.0@global/bin:/Users/powell_v2/.rvm/rubies/ruby-2.5.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/powell_v2/.rvm/gems/ruby-2.5.0/bin:/Users/powell_v2/.rvm/gems/ruby-2.5.0@global/bin:/Users/powell_v2/.rvm/rubies/ruby-2.5.0/bin:/Users/powell_v2/.rvm/bin:/Users/powell_v2/.rvm/bin
 
 Yarn version: 
   1.5.1
 
 Node version: 
-  8.9.4
+  8.10.0
 
 Platform: 
   darwin x64
