@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "serve": "live-server public/",
     "dev-server": "webpack-dev-server",
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env=production",
     "test": "jest --config=jest.config.json"
   },
   "license": "MIT",
@@ -19,6 +22,7 @@
     "enzyme-adapter-react-16": "^1.1.1",
     "enzyme-to-json": "^3.3.3",
     "jest": "^22.4.2",
+    "mini-css-extract-plugin": "^0.4.0",
     "moment": "^2.21.0",
     "node-sass": "^4.7.2",
     "normalize.css": "^8.0.0",
@@ -35,11 +39,12 @@
     "sass-loader": "^6.0.7",
     "uuid": "^3.2.1",
     "validator": "^9.4.1",
-    "webpack": "^4.0.1",
+    "webpack": "^4.4.1",
     "webpack-dev-server": "^3.1.0"
   },
   "devDependencies": {
     "css-loader": "^0.28.10",
+    "live-server": "^1.2.0",
     "style-loader": "^0.20.2",
     "webpack-cli": "^2.0.10"
   }
