@@ -7,7 +7,9 @@
     "dev-server": "webpack-dev-server",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env=production",
-    "test": "jest --config=jest.config.json"
+    "test": "jest --config=jest.config.json",
+    "start": "node server/server.js",
+    "heroku-postbuild": "yarn run build:prod"
   },
   "license": "MIT",
   "dependencies": {
@@ -21,6 +23,7 @@
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "enzyme-to-json": "^3.3.3",
+    "express": "^4.16.3",
     "jest": "^22.4.2",
     "mini-css-extract-plugin": "^0.4.0",
     "moment": "^2.21.0",
