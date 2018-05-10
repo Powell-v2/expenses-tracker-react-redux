@@ -10,3 +10,7 @@ const config = {
 };
 
 firebase.initializeApp(config);
+
+const db = firebase.database();
+
+export { firebase, db as default };
