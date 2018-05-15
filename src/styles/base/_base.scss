@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,700');
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -9,7 +11,7 @@ html {
 body {
   background-color: $dark-grey;
   line-height: 1.6;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Maven Pro', Helvetica, Arial, sans-serif;
   font-size: $m-size;
 }
 
