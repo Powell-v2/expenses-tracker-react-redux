@@ -1,15 +1,22 @@
 // Colors
 $dark-grey: #444;
+$dark-tomato: darken(tomato, 20%);
+$light-grey: #ccc;
+$grey: #555;
 $royalblue: royalblue;
+$darkroyalblue: fade-out(darken(royalblue, 50%), .2);
+$off-white: #f5f5f5;
 
 // Fonts
 $font-size-medium: 1.65rem;
+$font-size-small: 1.35rem;
 
 // Spacing
 $s-size: 1.2rem;
 $m-size: 1.6rem;
 $l-size: 3.2rem;
 $xl-size: 4.8rem;
+$title-letter-spacing: 7px;
 
 // Breakpoints
 $desktop-breakpoint: 45rem;

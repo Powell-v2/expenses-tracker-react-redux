@@ -3,7 +3,18 @@
   border-radius: $s-size / 2;
   border: none;
   color: white;
+  display: inline-block;
   font-size: $font-size-medium;
-  font-weight: 700;
+  font-weight: 400;
+  line-height: 1;
   padding: $s-size $l-size;
+  text-decoration: none;
+}
+
+.button--link {
+  background: none;
+}
+
+.button--secondary {
+  background: $dark-tomato;
 }
